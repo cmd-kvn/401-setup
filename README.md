@@ -23,3 +23,7 @@
 `> npm install eslint --save-dev`
 `--save-dev` as a dev dependency
 `--save` as a regular dependency
+7. Update scripts in `package.json`
+`"lint": "eslint ."`
+`"pretest": "npm run lint"`
+`"start": "node server"` or main file name. Make `"main:"` in `package.json` consistent

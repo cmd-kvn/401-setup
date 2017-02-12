@@ -2,8 +2,12 @@
   "name": "401-setup",
   "version": "1.0.0",
   "description": "How to setup a 401 project",
+  "main": "server.js",
   "scripts": {
-    "test": "mocha"
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "mocha",
+    "start": "node server"
   },
   "repository": {
     "type": "git",
