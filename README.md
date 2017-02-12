@@ -18,3 +18,8 @@
 - make sure `test` is set to `mocha`
 - make sure `license` is consistent when it was setup on GitHub
 - update `author` with additonal, optional <email> and (github) 
+6. Add dependencies
+`> npm install mocha --save-dev` 
+`> npm install eslint --save-dev`
+`--save-dev` as a dev dependency
+`--save` as a regular dependency
