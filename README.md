@@ -27,3 +27,5 @@
     `"lint": "eslint ."`
     `"pretest": "npm run lint"`
     `"start": "node server"` or main file name. Make `"main:"` in `package.json` consistent
+8. Add `.travis.yml` file
+    - use a `travis` file from a previous project
