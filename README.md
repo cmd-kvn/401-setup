@@ -6,7 +6,7 @@
 2. Clone down the repo to your local machine
 3. Checkout to a new branch
 4. Add a `.gitignore`
-    - go to github.com/github/gitignore
+    - go to [github gitignore repo](github.com/github/gitignore)
     - click on `Global`
     - find your OS
     - use the raw version to copy and paste to your `.gitignore`
