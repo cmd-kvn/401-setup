@@ -9,24 +9,30 @@
     - go to [github gitignore repo](github.com/github/gitignore)
     - click on `Global`
     - find your OS
-    - use the raw version to copy and paste to your `.gitignore`
+    - use/click the `raw` version (found above where the code starts next to `blame` and `history`) to copy and paste to your `.gitignore`
     - again in `Global` find the gitignore for VS code
-    - at the root add the `gitignore` for Node
+    - at the [root](https://github.com/github/gitignore) add the `gitignore` for Node
 5. Add an `.eslintrc`
     - use an `.eslintrc` from a previous project
-6. `> npm init` to create `package.json` 
-    - update the description
-    - make sure `test` is set to `mocha`
-    - make sure `license` is consistent when it was setup on GitHub
-    - update `author` with additonal, optional <email> and (github) 
+6. Create `package.json` via
+```
+~/ npm init
+# update the description
+# make sure `test` is set to `mocha`
+# make sure `license` is consistent when it was setup on GitHub
+# update `author` with additonal, optional <email> and (github) 
+``` 
 7. Add dependencies
-    `> npm install mocha --save-dev` 
-    `> npm install eslint --save-dev`
-    `--save-dev` as a dev dependency
-    `--save` as a regular dependency
-8. Update scripts in `package.json`
-    `"lint": "eslint ."`
-    `"pretest": "npm run lint"`
-    `"start": "node server"` or main file name. Make `"main:"` in `package.json` consistent
+```
+~/ npm install mocha --save-dev
+~/ npm install eslint --save-dev
+# --save-dev as a dev dependency  
+# --save as a regular dependency
+```
+
+8. Update scripts in `package.json`  
+    - `"lint": "eslint ."`  
+    - `"pretest": "npm run lint"`  
+    - `"start": "node server"` or main file name. Make `"main:"` in `package.json` consistent
 9. Add `.travis.yml` file
     - use a `travis` file from a previous project
