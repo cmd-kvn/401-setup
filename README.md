@@ -10,8 +10,8 @@
     - click on `Global`
     - find your OS
     - use the raw version to copy and paste to your `.gitignore`
-    - again in Global find the gitignore for VS code
-    - at the root add the gitignore for Node
+    - again in `Global` find the gitignore for VS code
+    - at the root add the `gitignore` for Node
 5. Add an `.eslintrc`
     - use an `.eslintrc` from a previous project
 6. `> npm init` to create `package.json` 
